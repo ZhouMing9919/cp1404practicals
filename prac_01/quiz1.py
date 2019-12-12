@@ -1,0 +1,9 @@
+def main():
+    a = 5
+    b = 10
+    c = 0.5
+
+    a == b * c
+
+
+main()
