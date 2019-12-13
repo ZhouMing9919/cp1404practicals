@@ -6,13 +6,12 @@ MAXIMUM = 45
 
 
 def main():
-    """Quick picks program - choose sets of random numbers."""
-    number_of_quick_picks = int(input("How many quick picks? "))
-    while number_of_quick_picks < 0:
-        print("That makes no sense!")
-        number_of_quick_picks = int(input("How many quick picks? "))
+    number_of_picks = int(input("How many quick picks? "))
+    while number_of_picks <= 0:
+        print("Input should be >= 0, please try again")
+        number_of_picks = int(input("How many quick picks? "))
 
-    for i in range(number_of_quick_picks):
+    for i in range(number_of_picks):
         quick_pick = []
         for j in range(NUMBERS_PER_LINE):
             number = random.randint(MINIMUM, MAXIMUM)
