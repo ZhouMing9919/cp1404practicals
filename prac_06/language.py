@@ -8,6 +8,7 @@ def main():
     visual_basic = ProgrammingLanguage("Visual Basic", "Static", False, 1991)
 
     languages = [ruby, python, visual_basic]
+    print(ruby)  # print to see if the format is correct
 
     print("The dynamically typed languages are:")
     for language in languages:
