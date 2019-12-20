@@ -28,4 +28,3 @@ class Car:
             self.fuel -= distance
         self.odometer += distance
         return distance
-
