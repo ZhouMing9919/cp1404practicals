@@ -17,11 +17,11 @@ def main():
     # 2.Add 20 more units of fuel to this new car object using the add method.
     limo.add_fuel(20)
     # 3.Print the amount of fuel in the car.
-    print(limo.fuel)
+    print("Amount of fuel:", limo.fuel)
     # 4.Attempt to drive the car 115km using the drive method.
     limo.drive(115)
     # 5.Print the car's odometer reading.
-    print(limo.odometer)
+    print("Odometer reading:", limo.odometer)
 
 
 if __name__ == '__main__':
