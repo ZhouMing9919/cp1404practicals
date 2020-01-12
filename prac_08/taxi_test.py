@@ -12,4 +12,5 @@ def main():
     print(taxi1)
 
 
-main()
+if __name__ == '__main__':
+    main()
